@@ -13,3 +13,4 @@ while True:
     if n == 8:
         break
     print(f"approx = {approx} \t error = {error}")                  
+
