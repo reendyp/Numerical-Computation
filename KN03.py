@@ -93,3 +93,5 @@ while e>1e-6:
     x = np.array(solutionAx)
     i+=1
 print(f"Hasil akar-akar = {x} iterasi - {i}")
+
+# Literatur :https://www.bing.com/ck/a?!&&p=f2504bb91e405cd6JmltdHM9MTcxMTQxMTIwMCZpZ3VpZD0yZWNmYmFmMC03MTcyLTY5NmEtMGRjOC1hYjYzNzAyNDY4ZTkmaW5zaWQ9NTI0OA&ptn=3&ver=2&hsh=3&fclid=2ecfbaf0-7172-696a-0dc8-ab63702468e9&psq=norm+pada+jacobi&u=a1aHR0cHM6Ly9vanMudW5tLmFjLmlkL2ptYXRoY29zL2FydGljbGUvZG93bmxvYWQvMTI0NDcvNzM1MA&ntb=1
