@@ -51,6 +51,8 @@ def Conjugate(aC):
                     aC[i][j] = (-1)**(i+j)*(a[i+2][j-1]*a[i+1][j-2]-a[i+2][j-2]*a[i+1][j-1]) # a21a10-a20a11
                     aC[i+1][j] = (-1)**(i+1+j)*(a[i+2][j-1]*a[i][j-2]-a[i+2][j-2]*a[i][j-1]) # a21a00-a20a01
                     aC[i+2][j] = (-1)**(i+2+j)*(a[i+1][j-1]*a[i][j-2]-a[i+1][j-2]*a[i][j-1]) # a11a00-a10a01
+        else:
+            None
     return aC
 aCnew = Conjugate(a)
 print(f"Matriks Konjugasi dari {a}={aCnew}")
